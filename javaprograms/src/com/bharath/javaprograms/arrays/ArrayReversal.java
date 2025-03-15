@@ -7,6 +7,7 @@ public class ArrayReversal {
 		int reversed[] = new int[5];
 		for (int i = 0, j = a.length; i < a.length; i++, j--) {
 			reversed[j - 1] = a[i];
+			System.out.println();
 		}
 
 		for (int i = 0; i < reversed.length; i++) {
