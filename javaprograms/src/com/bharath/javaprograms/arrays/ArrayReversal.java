@@ -11,6 +11,7 @@ public class ArrayReversal {
 
 		for (int i = 0; i < reversed.length; i++) {
 			System.out.print(reversed[i]+" ");
+			System.out.println();
 
 		}
 	}
